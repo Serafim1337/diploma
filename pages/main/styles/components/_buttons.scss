@@ -1,0 +1,43 @@
+.button {
+  text-transform: uppercase;
+  background-color: $orange;
+  font-family: $r-medium;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+  color: $white;
+  border: none;
+  transition: $transition-default;
+
+  &:hover {
+    background-color: $orange-dark;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: $green;
+  }
+}
+
+.round-button,
+.button-square {
+  width: 298px;
+  height: 54px;
+  border-radius: 25px;
+}
+
+.arrow-button {
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  z-index: 80;
+}
+
+.button-square {
+  border-radius: 5px;
+}
+
+.arrow-button:disabled {
+  background-color: $gray;
+}

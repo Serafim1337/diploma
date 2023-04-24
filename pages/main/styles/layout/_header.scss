@@ -1,0 +1,159 @@
+.header {
+  background-color: $black;
+  height: 80px;
+  width: 100%;
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  gap: 58px;
+  white-space: nowrap;
+  padding-left: 63px;
+}
+
+.nav-link,
+.credits {
+  display: block;
+  color: $white;
+  font-family: $r-regular;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  transition: $transition-default;
+  &:hover {
+    color: $orange;
+    cursor: pointer;
+  }
+}
+
+.active-link {
+  color: $orange !important;
+}
+
+.logo {
+  .logo-pic {
+    width: 80px;
+  }
+  &:hover {
+    filter: invert(61%) sepia(22%) saturate(2347%) hue-rotate(350deg)
+      brightness(101%) contrast(99%);
+  }
+}
+
+.overlay {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $white-frosted;
+  opacity: 0.9;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  height: 300px;
+  width: 100%;
+  background-color: $white;
+  opacity: 1;
+  padding: 10px;
+}
+
+.nav-dropdown {
+  margin-top: 30px;
+  width: 30%;
+}
+
+.nav-list-dropdown {
+  list-style: none;
+  padding: 0;
+
+  & li {
+    margin-top: 15px;
+  }
+
+  .nav-link {
+    color: $black-blue;
+    font-family: $r-regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+
+.dropdown-logo {
+  filter: invert(61%) sepia(22%) saturate(2347%) hue-rotate(350deg)
+    brightness(101%) contrast(99%);
+  width: 30%;
+}
+
+.burger-menu {
+  display: none;
+  background: transparent;
+  z-index: 300;
+  position: relative;
+  height: 22px;
+  width: 30px;
+
+  &:before,
+  &:after {
+    background: $white;
+    backface-visibility: hidden;
+    content: "";
+    height: 2px;
+    left: 0;
+    transition: 0.75s;
+    width: 30px;
+  }
+
+  &:before {
+    box-shadow: $white 0 10px 0 0;
+    position: absolute;
+    top: 0;
+  }
+
+  &:after {
+    position: absolute;
+    top: calc(100% - 2px);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cross {
+  &:before {
+    box-shadow: transparent 0 0 0 0;
+    top: 50%;
+    transform: rotate(225deg);
+    background: $orange;
+  }
+
+  &:after {
+    top: 50%;
+    transform: rotate(315deg);
+    background: $orange;
+  }
+}

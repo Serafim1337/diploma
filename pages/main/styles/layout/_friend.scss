@@ -1,0 +1,152 @@
+.friend-section {
+  min-height: 1004px;
+  background: $orange-grad;
+  padding-top: 69px;
+  box-sizing: border-box;
+}
+
+.friend-container {
+  height: 835px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+
+.friend-text-block {
+  padding: 13px 70px 0;
+  font-family: $r-regular;
+}
+
+.friend-h2 {
+  text-align: center;
+  color: $orange;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin: 0;
+}
+
+.friend-h3 {
+  color: $black-blue;
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.friend-h4 {
+  color: $black;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.friend-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: 10px;
+  max-width: 863px;
+}
+
+.friend-p-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: 40px;
+}
+
+.fund-link {
+  text-decoration: none;
+  color: $black;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+
+  bottom: -4px;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: $orange;
+}
+
+.friend-works-block {
+  font-family: $r-regular;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-cards {
+  display: flex;
+  gap: 30px;
+  max-width: 764px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.payment-card {
+  width: 168px;
+  height: 244px;
+}
+
+.icon-block {
+  width: 168px;
+  height: 168px;
+  background-color: $white;
+  border: 1px solid $orange;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-icon {
+  width: 100px;
+}
+
+.payment-card-title {
+  font-family: $r-regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: $black-blue;
+  margin-top: 30px;
+}
+
+.payment-arrow {
+  width: 69px;
+  margin-top: -65px;
+}
+
+.payment-round-arrow {
+  display: none;
+  position: absolute;
+  top: -12px;
+  &:last-of-type {
+    left: 348px;
+  }
+}
+
+.first-arrow {
+  left: 137px;
+}
+
+.friend-button {
+  margin-top: 60px;
+}

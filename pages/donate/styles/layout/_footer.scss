@@ -1,0 +1,143 @@
+.footer {
+  max-height: 443px;
+  background-color: #111115;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-top: 41px;
+}
+
+.socials-list {
+  margin-top: 44px;
+  padding-left: 0;
+  list-style: none;
+  & li {
+    margin-bottom: 10px;
+  }
+}
+
+.icon-circle {
+  background-color: $gray;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.socials-link {
+  text-decoration: none;
+  font-family: $r-regular;
+  color: $white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  transition: $transition-default;
+  &:hover {
+    color: $orange;
+  }
+}
+
+.donate-button {
+  margin-top: 68px;
+}
+
+.center {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-list-footer {
+  padding: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscribe {
+  justify-self: flex-start;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  font-family: $r-regular;
+}
+
+.subscribe-h3 {
+  color: $white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 14px;
+  margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-button {
+  width: 129px;
+  height: 42px;
+  border: 1px solid $black-blue;
+  background-color: $gray-light;
+  color: $black;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: $r-light;
+
+  &:active {
+    border-color: $green;
+    color: $green;
+  }
+
+  &:hover {
+    background-color: $gray-light;
+  }
+}
+
+.form-mistake {
+  border-color: $red;
+  color: $red;
+}
+.subscribe-input {
+  background: transparent;
+  border-style: none;
+  border: 1px solid $orange;
+  width: 228px;
+  height: 42px;
+  font-family: $r-light;
+  font-size: 16px;
+  line-height: 140%;
+  color: #bdbdbd;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.designed-by {
+  align-self: flex-end;
+  font-family: $r-light;
+  color: $white;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  & p {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,180 @@
+.info-section {
+  min-height: 1830px;
+  position: relative;
+}
+
+.info-container {
+  padding-top: 140px;
+  // position: relative;
+}
+
+.backstage-flower-top {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.backstage-flower-bot-l {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.backstage-flower-bot-r {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.backstage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backstage-image-block {
+  width: 609px;
+  height: 403px;
+  background-image: url(../../../assets/images/backstage-image.jpg);
+}
+
+.backstage-text-block {
+  max-width: 465px;
+  color: $black-blue;
+  font-weight: 400;
+  font-family: $r-regular;
+  & h2,
+  & h3 {
+    font-weight: 400;
+  }
+  .button {
+    display: none;
+  }
+}
+
+.backstage-h2 {
+  line-height: 120%;
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.backstage-h3 {
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 54px;
+  margin-bottom: 34px;
+}
+
+.backstage-text {
+  font-size: 16px;
+  line-height: 140%;
+  &:first-of-type {
+    line-height: 130%;
+  }
+}
+
+.animals {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+}
+
+.arrow-icon {
+  width: 16px;
+}
+
+.arrow-left {
+  top: 404px;
+  left: 0;
+  margin-left: -82px;
+}
+
+.arrow-right {
+  top: 404px;
+  right: 0;
+  margin-right: -82px;
+}
+
+.arrow-icon-reversed {
+  transform: rotate(180deg);
+}
+
+.slider-wrapper {
+  width: 1160px;
+  overflow: hidden;
+  height: 874px;
+}
+
+.slider {
+  display: flex;
+  transition: ease 1s;
+  gap: 50px;
+}
+
+.animals-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 366px);
+  grid-template-rows: repeat(2, 426px);
+  gap: 20px 30px;
+}
+
+.animal-card {
+  width: 366px;
+  height: 426px;
+  border: 1px solid $orange;
+  border-radius: 5px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-pic-block {
+  height: 85%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animal-card-image { 
+  // height: 294px;
+  width: 294px;
+}
+
+.animal-card-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 13px auto 16px;
+
+  height: 15%;
+}
+
+.card-text {
+  font-family: $r-regular;
+  color: $black;
+}
+
+.card-h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0;
+  font-family: $r-bold;
+}
+
+.card-p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.card-icon {
+  width: 50px;
+}

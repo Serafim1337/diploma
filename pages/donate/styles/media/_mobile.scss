@@ -1,0 +1,126 @@
+// ------------------------------------- mobile <640px
+
+@media (max-width: 630px) {
+  .container {
+    max-width: 300px;
+  }
+  .header {
+    height: 45px;
+  }
+  .logo {
+    img {
+      width: 45px;
+    }
+  }
+  .intro-section {
+    min-height: 187px;
+    padding-top: 45px;
+  }
+  .help-h2 {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .donate-section {
+    min-height: 1220px;
+  }
+  .donation-desc {
+    margin-top: 20px;
+  }
+  .donation-h2 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .friend-block {
+    margin-top: 30px;
+  }
+  .friend-inner-block {
+    min-height: auto;
+  }
+  .donate-h1 {
+    font-size: 24px;
+  }
+  .title-text {
+    font-size: 16px;
+    width: 296px;
+    text-align: center;
+  }
+  .animal {
+    margin-top: 15px;
+  }
+  .animal-icon {
+    width: 160px;
+    margin-left: 24px;
+  }
+  .food-amount p {
+    width: 87px;
+  }
+  .food-number {
+    font-size: 40px;
+  }
+  .food-desc {
+    font-size: 9px;
+  }
+
+  .range-outer {
+    width: 300px;
+  }
+  .numbers-list {
+    li span {
+      font-size: 13px;
+    }
+    .dollar-icon {
+      width: 5px;
+      height: 10px;
+    }
+    gap: 32px;
+    margin-top: 10px;
+    padding-left: 16px;
+  }
+  .another-amount {
+    margin-top: 15px;
+  }
+  .amount-number {
+    width: 180px;
+    height: 42px;
+  }
+  .input-icon {
+    top: 12px;
+  }
+  .share-text {
+    width: 301px;
+  }
+  // ---------------------------------------
+  .footer {
+    max-height: 335px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .left {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-logo {
+    margin: 0 auto;
+  }
+  .socials-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .donate-button {
+    margin-top: 100px;
+  }
+  .center {
+    width: 100%;
+    order: 1;
+    margin-top: 20px;
+  }
+  .right {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .designed-by {
+    font-size: 15px;
+  }
+}

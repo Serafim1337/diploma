@@ -1,0 +1,156 @@
+// ---------------------small desktop >=1000px
+
+@media (max-width: 1520px) {
+  .backstage-flower-top {
+    display: none;
+  }
+  .backstage-flower-bot-l {
+    width: 220px;
+  }
+  .backstage-flower-bot-r {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1490px) {
+  .info-section {
+    min-height: 1780px;
+    overflow: hidden;
+  }
+  .backstage-flower-bot-l {
+    width: 180px;
+  }
+  .slider-wrapper {
+    width: 944px;
+    overflow: hidden;
+    height: 802px;
+  }
+  .animals {
+    margin-top: 140px;
+  }
+  .animals-cards {
+    gap: 92px 30px;
+    grid-template-columns: repeat(3, 294px);
+    grid-template-rows: repeat(2, 354px);
+  }
+  .animal-card {
+    width: 294px;
+    height: 354px;
+  }
+  .animal-card-image {
+    // width: 294px;
+  }
+  .arrow-left,
+  .arrow-right {
+    top: 370px;
+    margin: 0;
+  }
+  .arrow-left {
+    left: 320px;
+  }
+  .arrow-right {
+    right: 320px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .backstage {
+    // margin: auto 17px auto 30px;
+  }
+  .image-block {
+    width: 455px;
+    height: 408px;
+    overflow: hidden;
+  }
+  .backstage-image-block {
+    width: 455px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .container {
+    max-width: 940px;
+  }
+  .header-container {
+    margin: auto 30px;
+  }
+  .friend-container {
+    min-height: 796px;
+    max-width: 940px;
+  }
+  .friend-h4 {
+    margin-top: 20px;
+  }
+  .friend-p-bold {
+    margin-top: 20px;
+  }
+  .friend-works-block {
+    margin-top: 40px;
+  }
+  .cards-slider {
+    width: 941px;
+    height: 393px;
+  }
+  .testimonial-card:nth-child(4) {
+    display: none;
+  }
+  .testimonial-card {
+    width: 293px;
+  }
+  .feedback-button {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .footer-donate-link {
+    position: absolute;
+  }
+  .socials-list {
+    margin-top: 166px;
+  }
+  .nav-list-footer {
+    margin-bottom: 10px;
+    gap: 48px;
+  }
+  .subscribe {
+    position: absolute;
+    right: 30px;
+  }
+  .designed-by {
+    margin-top: 328px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .intro-h1 {
+    font-size: 85px;
+  }
+  .intro-container {
+    height: 570px;
+  }
+  .intro-circle {
+    width: 367px;
+    height: 367px;
+  }
+  .intro-text {
+    top: 56px;
+    left: 46px;
+  }
+  .intro-block {
+    margin-right: 137px;
+  }
+  .watch-button {
+    margin-top: 69px;
+    margin-left: 94px;
+  }
+  .backstage-flower-bot-l {
+    width: 130px;
+  }
+  .backstage-flower-bot-r {
+    width: 260px;
+  }
+  .scroller {
+    width: 390px;
+  }
+}

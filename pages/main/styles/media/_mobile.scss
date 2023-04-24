@@ -1,0 +1,175 @@
+// ------------------------------------- mobile <640px
+
+@media (max-width: 630px) {
+  .container {
+    max-width: 300px;
+  }
+  .header {
+    height: 45px;
+    z-index: 90;
+  }
+  .logo {
+   .logo-pic {
+    width: 45px;
+   }
+  }
+  .intro-container {
+    height: 186px;
+  }
+  .intro-block {
+    .button {
+      display: none;
+    }
+  }
+  .intro-content {
+    margin-right: -95px;
+  }
+  .intro-text {
+    max-width: 128px;
+    top: 19px;
+    left: 19px;
+  }
+  .intro-h1 {
+    font-size: 28px;
+  }
+  .intro-circle {
+    width: 119px;
+    height: 119px;
+  }
+  .info-section {
+    height: 2050px;
+  }
+  .info-container {
+    padding-top: 20px;
+  }
+  .backstage-flower-top {
+    width: 60px;
+    top: 65px;
+    right: -25px;
+  }
+  .backstage-text-block {
+    .button {
+      display: block;
+    }
+  }
+  .backstage-h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .slider-wrapper {
+    width: auto;
+    height: auto;
+  }
+  .animals {
+    margin-top: 20px;
+    .arrow-button {
+      display: none;
+    }
+    gap: 36px;
+  }
+  .animals-cards {
+    grid-template-columns: 287px;
+    grid-template-rows: repeat(4, 332px);
+    max-height: 1390px;
+    overflow: hidden;
+    row-gap: 20px;
+  }
+  .backstage-flower-bot-l {
+    width: 80px;
+  }
+  .backstage-flower-bot-r {
+    width: 190px;
+  }
+  .friend-section {
+    height: 1102px;
+  }
+  .friend-container {
+    height: 1062px;
+  }
+  .friend-h2 {
+    font-size: 24px;
+  }
+  .friend-h3 {
+    margin-bottom: 20px;
+  }
+  .friend-h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .friend-p {
+    display: none;
+  }
+  .friend-p-bold {
+    display: none;
+  }
+  .friend-works-block {
+    margin-top: 20px;
+  }
+  .payment-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .payment-card-title {
+    margin-top: 10px;
+  }
+  .payment-round-arrow {
+    transform: rotate(90deg);
+    left: 126px;
+    &:last-of-type {
+      top: 450px;
+      left: 126px;
+    }
+  }
+  .first-arrow {
+    top: 198px;
+  }
+  .testimonials-section {
+    min-height: 645px;
+  }
+  .cards-slider {
+    width: 302px;
+    height: 389px;
+  }
+  .testimonials-h3 {
+    padding-top: 30px;
+  }
+  .feedback-button {
+    margin-top: 30px;
+  }
+  .leave-bg {
+    width: 125px;
+  }
+  .footer {
+    max-height: 335px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .left {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-logo {
+    margin: 0 auto;
+  }
+  .socials-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .donate-button {
+    // margin-top: 100px;
+  }
+  .center {
+    width: 100%;
+    order: 1;
+    margin-top: 20px;
+  }
+  .right {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .designed-by {
+    font-size: 15px;
+  }
+}
