@@ -1,0 +1,14 @@
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.lock {
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}

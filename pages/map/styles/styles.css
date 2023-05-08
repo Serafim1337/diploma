@@ -170,7 +170,7 @@ body {
   background: #fe9013; }
 
 .intro-section {
-  background-image: url("../../../assets/images/interstellar-bg.jpg");
+  background-image: url("../../../assets/images/map-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -219,6 +219,9 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 862px; }
+
+.google-map {
+  margin-top: 50px; }
 
 .friend-title {
   font-family: r-regular;
@@ -301,8 +304,7 @@ select::-ms-expand {
   gap: 10px; }
 
 .seat-taken {
-  background-color: red;
-  pointer-events: none; }
+  background-color: red; }
 
 .seat-chosen {
   background-color: green; }
@@ -312,18 +314,10 @@ select::-ms-expand {
   height: 20px;
   padding: 5px;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 10px; }
+  border: 2px solid black; }
   .seats-element:hover {
     background-color: yellow;
     cursor: pointer; }
-
-.screen {
-  background-color: #000000;
-  width: 50%;
-  height: 20px;
-  border-radius: 20px;
-  margin-top: 20px; }
 
 .food-amount {
   font-family: r-regular;

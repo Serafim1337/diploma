@@ -1,0 +1,70 @@
+// -------------------------------small desktop >=1000px
+
+@media (max-width: 1220px) {
+  .container {
+    max-width: 940px;
+  }
+
+  .header-container {
+    margin: auto 30px;
+  }
+
+  .donate-section {
+    min-height: 1330px;
+  }
+
+  .friend-block {
+    padding-top: 20px;
+    padding-bottom: 46px;
+    min-height: auto;
+    margin-top: 40px;
+  }
+
+  .donate-h1 {
+    padding-top: 0;
+  }
+  .title-text {
+    width: 843px;
+  }
+
+  .range-outer {
+    width: 855px;
+  }
+
+  .numbers-list {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .footer-donate-link {
+    position: absolute;
+  }
+  .socials-list {
+    margin-top: 166px;
+  }
+  .nav-list-footer {
+    margin-bottom: 15px;
+    gap: 48px;
+  }
+  .subscribe {
+    position: absolute;
+    right: 30px;
+  }
+  .designed-by {
+    margin-top: 328px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .help-h2 {
+    max-width: 760px;
+  }
+  .donation-desc {
+    max-width: 930px;
+    margin-top: 30px;
+  }
+  .friend-block {
+    margin-top: 50px;
+  }
+}

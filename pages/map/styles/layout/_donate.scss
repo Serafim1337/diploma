@@ -54,6 +54,10 @@
   min-height: 862px;
 }
 
+.google-map {
+  margin-top: 50px;
+}
+
 .friend-title {
   font-family: $r-regular;
   text-align: center;
@@ -148,7 +152,6 @@ select::-ms-expand {
 
 .seat-taken {
   background-color: red;
-  pointer-events: none;
 }
 
 .seat-chosen {
@@ -161,19 +164,10 @@ select::-ms-expand {
   padding: 5px;
   text-align: center;
   border: 2px solid black;
-  border-radius: 10px;
   &:hover {
     background-color: yellow;
     cursor: pointer;
   }
-}
-
-.screen {
-  background-color: $black;
-  width: 50%;
-  height: 20px;
-  border-radius: 20px;
-  margin-top: 20px;
 }
 
 .food-amount {

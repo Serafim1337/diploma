@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/styles.css" />
   <link rel="icon" href="../../assets/icons/logo-film.svg" />
-  <title>Покупка билета</title>
+  <title>Покупка абонемента</title>
 </head>
 
 <body>
@@ -65,15 +65,14 @@
       <div class="container donate-container">
         <div class="donation-text">
           <h2 class="help-h2">
-            Интерстеллар
+            Посещайте сеансы выгодно вместе с абонементом!
           </h2>
           <p class="donation-desc">
-            Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису,
-            коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет
-            области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения
-            для космических путешествий человека и найти планету с подходящими для человечества условиями.
+            Хотите смотреть свои любимые фильмы в кино за меньшую стоимость? Тогда новая услуга абонементов в кино
+            именно для вас! Приобретая абонемент, вы получаете возможность смотреть фильмы на большом экране несколько
+            раз за сезон, экономя при этом относительно обычной стоимости билетов.
           </p>
-          <h2 class="donation-h2">Покупка билета</h2>
+          <h2 class="donation-h2">Покупка абонемента</h2>
         </div>
         <div class="friend-block">
           <div class="friend-inner-block">
@@ -83,22 +82,126 @@
                 Вы можете забронировать до 8 мест, выбрав способ оплаты по QR-коду в кинотеатре или онлайн по карте.
               </p>
             </div>
-            <div class="cinema-choice">
-              <div class="select">
-                <select>
-                  <option value="0">Выберите кинотеатр</option>
-                  <option value="1">Комсомолец</option>
-                  <option value="2">Беларусь</option>
-                  <option value="3">Октябрь</option>
-                  <option value="4">Центральный</option>
-                  <option value="5">Киев</option>
-                </select>
+            <div class="choose-properties">
+              <div class="cinema-seats">
+                <div class="cinema-choice">
+                  <div class="select">
+                    <select>
+                      <option value="0">Выберите кинотеатр</option>
+                      <option value="1">Комсомолец</option>
+                      <option value="2">Беларусь</option>
+                      <option value="3">Октябрь</option>
+                      <option value="4">Центральный</option>
+                      <option value="5">Киев</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="cinema-choice">
+                  <div class="select">
+                    <select>
+                      <option value="0">Выберите фильм</option>
+                      <option value="1">Джон Уик</option>
+                      <option value="2">Бойцовский клуб</option>
+                      <option value="3">Интерстеллар</option>
+                      <option value="4">Криминальное чтиво</option>
+                      <option value="5">Остров проклятых</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="seats">
+                </div>
+                <div class="screen">
+                </div>
               </div>
-            </div>
-            <div class="seats">
+              <div class="cinema-date">
+                <div class="calendar-container">
 
-            </div>
-            <div class="screen">
+                  <header>
+
+                    <div class="day">18</div>
+                    <div class="month">August</div>
+
+                  </header>
+
+                  <table class="calendar">
+
+                    <thead>
+
+                      <tr>
+
+                        <td>Пн</td>
+                        <td>Вт</td>
+                        <td>СР</td>
+                        <td>Чт</td>
+                        <td>Пт</td>
+                        <td>Сб</td>
+                        <td>Вс</td>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+                        <td class="prev-month">29</td>
+                        <td class="prev-month">30</td>
+                        <td class="prev-month">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                      </tr>
+
+                      <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+
+                      <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td class="current-day">18</td>
+                      </tr>
+
+                      <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                      </tr>
+
+                      <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td class="next-month">1</td>
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                  <div class="ring-left"></div>
+                  <div class="ring-right"></div>
+
+                </div>
+              </div>
             </div>
             <div class="money">
               <p class="money-p">Стоимость одного билета: <span id="price"></span></p>
@@ -190,11 +293,6 @@
             <button class="button round-button feed-button">
               Купить
             </button>
-            <a href="../abonement/abonement.html" class="footer-donate-link">
-              <button class="button button-square donate-button">
-                Экономьте с абонементом!
-              </button>
-            </a>
             <p class="share-text">
               Ждем вас в кино!
             </p>

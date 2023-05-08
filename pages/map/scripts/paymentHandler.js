@@ -22,12 +22,6 @@ for (let i = 1; i <= 80; i++) {
   let number = document.createElement('span');
   number.textContent = i;
   seat.append(number);
-
-  const random = Math.random();
-  if (random > 0.5) {
-    seat.classList.add('seat-taken');
-  }
-
   seat.addEventListener('click', function (e) {
 
     if (seat.classList.contains('seat-chosen')) {

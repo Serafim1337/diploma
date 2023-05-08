@@ -170,7 +170,7 @@ body {
   background: #fe9013; }
 
 .intro-section {
-  background-image: url("../../../assets/images/interstellar-bg.jpg");
+  background-image: url("../../../assets/images/people.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -244,6 +244,95 @@ body {
 .cinema-choice {
   padding-top: 30px; }
 
+.choose-properties {
+  display: flex;
+  gap: 20px; }
+
+.cinema-date {
+  padding-top: 30px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td {
+  padding: 0; }
+
+.calendar-container {
+  position: relative;
+  width: 450px; }
+
+.calendar-container header {
+  border-radius: 1em 1em 0 0;
+  background: #e66b6b;
+  color: #fff;
+  padding: 3em 2em; }
+
+.day {
+  font-size: 8em;
+  font-weight: 900;
+  line-height: 1em; }
+
+.month {
+  font-size: 4em;
+  line-height: 1em;
+  text-transform: lowercase; }
+
+.calendar {
+  background: #fff;
+  border-radius: 0 0 1em 1em;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 3px 1px #fff;
+  color: #555;
+  display: inline-block;
+  width: 450px;
+  padding-left: 30px; }
+
+.calendar thead {
+  color: #e66b6b;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.calendar td {
+  padding: .5em 1em;
+  text-align: center; }
+
+.calendar tbody td:hover {
+  background: #cacaca;
+  color: #fff; }
+
+.current-day {
+  color: #e66b6b; }
+
+.prev-month,
+.next-month {
+  color: #cacaca; }
+
+.ring-left,
+.ring-right {
+  position: absolute;
+  top: 230px; }
+
+.ring-left {
+  left: 2em; }
+
+.ring-right {
+  right: 2em; }
+
+.ring-left:before,
+.ring-left:after,
+.ring-right:before,
+.ring-right:after {
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 0, 0.2);
+  content: "";
+  display: inline-block;
+  margin: 8px;
+  height: 32px;
+  width: 8px; }
+
 :root {
   --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
   --gray: #34495e;
@@ -273,7 +362,7 @@ select::-ms-expand {
 .select {
   position: relative;
   display: flex;
-  width: 20em;
+  width: 100%;
   height: 3em;
   border-radius: .25em;
   overflow: hidden; }
@@ -320,7 +409,7 @@ select::-ms-expand {
 
 .screen {
   background-color: #000000;
-  width: 50%;
+  width: 100%;
   height: 20px;
   border-radius: 20px;
   margin-top: 20px; }
