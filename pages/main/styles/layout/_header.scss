@@ -103,9 +103,13 @@
 }
 
 .dropdown-logo {
-  filter: invert(61%) sepia(22%) saturate(2347%) hue-rotate(350deg)
-    brightness(101%) contrast(99%);
+  // filter: invert(61%) sepia(22%) saturate(2347%) hue-rotate(350deg)
+  //   brightness(101%) contrast(99%);
   width: 30%;
+}
+
+.film-dropdown {
+  width: 50px;
 }
 
 .burger-menu {

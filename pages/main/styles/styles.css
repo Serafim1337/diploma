@@ -141,8 +141,10 @@ body {
       color: #fe9013; }
 
 .dropdown-logo {
-  filter: invert(61%) sepia(22%) saturate(2347%) hue-rotate(350deg) brightness(101%) contrast(99%);
   width: 30%; }
+
+.film-dropdown {
+  width: 50px; }
 
 .burger-menu {
   display: none;
@@ -371,6 +373,37 @@ body {
 
 .card-icon {
   width: 50px; }
+
+.discount-image-block {
+  width: 609px;
+  height: 403px;
+  background-image: url(../../../assets/images/discount-card.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.abonement-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.abonement-image {
+  width: 609px;
+  height: 403px;
+  background-image: url(../../../assets/images/abonement.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.specials-container {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #febdab 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  width: 70%;
+  height: 550px;
+  margin-top: 110px;
+  padding: 10px; }
 
 .friend-section {
   min-height: 1004px;

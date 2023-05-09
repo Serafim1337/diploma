@@ -63,6 +63,9 @@ body {
 .logo-pic {
   width: 80px; }
 
+.film-dropdown {
+  width: 50px; }
+
 .nav-list {
   display: flex;
   list-style: none;
